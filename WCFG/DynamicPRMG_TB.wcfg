@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/0/PRMG_uCore/DynamicPRMG_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dynamicprmg_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/dynamicprmg_tb/clk_orig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_orig</obj_property>
+      <obj_property name="ObjectShortName">clk_orig</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/clk_gate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_gate</obj_property>
+      <obj_property name="ObjectShortName">clk_gate</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/res" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">res</obj_property>
+      <obj_property name="ObjectShortName">res</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/sw0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw0</obj_property>
+      <obj_property name="ObjectShortName">sw0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/sw1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw1</obj_property>
+      <obj_property name="ObjectShortName">sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/dynamicmode_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dynamicmode_in</obj_property>
+      <obj_property name="ObjectShortName">dynamicmode_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/dynamicspeed2x_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dynamicspeed2x_in</obj_property>
+      <obj_property name="ObjectShortName">dynamicspeed2x_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/amp1300hz_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amp1300hz_wr</obj_property>
+      <obj_property name="ObjectShortName">amp1300hz_wr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/amp2100hz_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">amp2100hz_wr</obj_property>
+      <obj_property name="ObjectShortName">amp2100hz_wr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/ampbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ampbus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ampbus[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/dacbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dacbus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dacbus[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/ld0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld0</obj_property>
+      <obj_property name="ObjectShortName">ld0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/ld1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld1</obj_property>
+      <obj_property name="ObjectShortName">ld1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/ld2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld2</obj_property>
+      <obj_property name="ObjectShortName">ld2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/ld3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld3</obj_property>
+      <obj_property name="ObjectShortName">ld3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/dynamicmode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dynamicmode</obj_property>
+      <obj_property name="ObjectShortName">dynamicmode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/dynamicspeed2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dynamicspeed2x</obj_property>
+      <obj_property name="ObjectShortName">dynamicspeed2x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/gate1300" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate1300</obj_property>
+      <obj_property name="ObjectShortName">gate1300</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/gate2100" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate2100</obj_property>
+      <obj_property name="ObjectShortName">gate2100</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/gate1300_adjusted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate1300_adjusted</obj_property>
+      <obj_property name="ObjectShortName">gate1300_adjusted</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/gate2100_adjusted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate2100_adjusted</obj_property>
+      <obj_property name="ObjectShortName">gate2100_adjusted</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/strobe25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe25</obj_property>
+      <obj_property name="ObjectShortName">strobe25</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/strobe12p5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe12p5</obj_property>
+      <obj_property name="ObjectShortName">strobe12p5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/amp_1300hz_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amp_1300hz_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_1300hz_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/amp_2100hz_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amp_2100hz_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">amp_2100hz_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/intervalcounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">intervalcounter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">intervalcounter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/intervalcounterovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intervalcounterovf</obj_property>
+      <obj_property name="ObjectShortName">intervalcounterovf</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/intervalcounterzero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intervalcounterzero</obj_property>
+      <obj_property name="ObjectShortName">intervalcounterzero</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/dyngeneration_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">dyngeneration_state</obj_property>
+      <obj_property name="ObjectShortName">dyngeneration_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dynamicprmg_tb/UUT/dyngeneration_halfperiod" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dyngeneration_halfperiod</obj_property>
+      <obj_property name="ObjectShortName">dyngeneration_halfperiod</obj_property>
+   </wvobject>
+</wave_config>

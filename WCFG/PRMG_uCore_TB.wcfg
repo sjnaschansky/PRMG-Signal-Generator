@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/0/PRMG_uCore/PRMG_uCore_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="prmg_ucore_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/prmg_ucore_tb/clk_orig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_orig</obj_property>
+      <obj_property name="ObjectShortName">clk_orig</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/clk_gate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_gate</obj_property>
+      <obj_property name="ObjectShortName">clk_gate</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/res" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">res</obj_property>
+      <obj_property name="ObjectShortName">res</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/sw0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw0</obj_property>
+      <obj_property name="ObjectShortName">sw0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/sw1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw1</obj_property>
+      <obj_property name="ObjectShortName">sw1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/strobe54k6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe54k6</obj_property>
+      <obj_property name="ObjectShortName">strobe54k6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/gate1300" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate1300</obj_property>
+      <obj_property name="ObjectShortName">gate1300</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/gate2100" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate2100</obj_property>
+      <obj_property name="ObjectShortName">gate2100</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/strobe25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe25</obj_property>
+      <obj_property name="ObjectShortName">strobe25</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/strobe12p5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe12p5</obj_property>
+      <obj_property name="ObjectShortName">strobe12p5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/ld0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld0</obj_property>
+      <obj_property name="ObjectShortName">ld0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/ld1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld1</obj_property>
+      <obj_property name="ObjectShortName">ld1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/ld2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld2</obj_property>
+      <obj_property name="ObjectShortName">ld2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/ld3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld3</obj_property>
+      <obj_property name="ObjectShortName">ld3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/fracdivider" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fracdivider[9:0]</obj_property>
+      <obj_property name="ObjectShortName">fracdivider[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/fracdividerout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fracdividerout</obj_property>
+      <obj_property name="ObjectShortName">fracdividerout</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/auxdivider" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">auxdivider[6:0]</obj_property>
+      <obj_property name="ObjectShortName">auxdivider[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/auxdividerovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">auxdividerovf</obj_property>
+      <obj_property name="ObjectShortName">auxdividerovf</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/strobe_54k6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_54k6</obj_property>
+      <obj_property name="ObjectShortName">strobe_54k6</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/strobe_54k6_adjusted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_54k6_adjusted</obj_property>
+      <obj_property name="ObjectShortName">strobe_54k6_adjusted</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/dualmodedivider" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dualmodedivider[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dualmodedivider[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/dualmodedividerovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dualmodedividerovf</obj_property>
+      <obj_property name="ObjectShortName">dualmodedividerovf</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/dualmodedividerzero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dualmodedividerzero</obj_property>
+      <obj_property name="ObjectShortName">dualmodedividerzero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/cyclecounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cyclecounter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cyclecounter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/cyclecounterovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cyclecounterovf</obj_property>
+      <obj_property name="ObjectShortName">cyclecounterovf</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/cyclecounterzero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cyclecounterzero</obj_property>
+      <obj_property name="ObjectShortName">cyclecounterzero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/siggen_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">siggen_state</obj_property>
+      <obj_property name="ObjectShortName">siggen_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/gate_1300" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate_1300</obj_property>
+      <obj_property name="ObjectShortName">gate_1300</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/gate_2100" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gate_2100</obj_property>
+      <obj_property name="ObjectShortName">gate_2100</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/strobe_25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_25</obj_property>
+      <obj_property name="ObjectShortName">strobe_25</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prmg_ucore_tb/UUT/strobe_12p5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_12p5</obj_property>
+      <obj_property name="ObjectShortName">strobe_12p5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+</wave_config>
