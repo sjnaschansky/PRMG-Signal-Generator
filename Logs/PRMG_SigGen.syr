@@ -1,0 +1,435 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.47 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> Reading design: PRMG_SigGen.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PRMG_SigGen.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PRMG_SigGen"
+Output Format                      : NGC
+Target Device                      : CoolRunner2 CPLDs
+
+---- Source Options
+Top Module Name                    : PRMG_SigGen
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : Yes
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 2
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/0/PRMG_uCore/PRMG_uCore.vhd" in Library work.
+Architecture arcprmg_ucore of Entity prmg_ucore is up to date.
+Compiling vhdl file "E:/0/PRMG_uCore/DynamicPRMG.vhd" in Library work.
+Architecture arcdynamicprmg of Entity dynamicprmg is up to date.
+Compiling vhdl file "E:/0/PRMG_uCore/PRMG_SigGen.vhd" in Library work.
+Entity <prmg_siggen> compiled.
+Entity <prmg_siggen> (Architecture <arcprmg_siggen>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PRMG_SigGen> in library <work> (architecture <arcprmg_siggen>) with generics.
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	ButtonTimeOutCtrWidth = 8
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+	SPITransmissionStateCounterWidth = 6
+	SignalBits = 8
+	SyncCounterWidth = 6
+	UserInterfaceAuxCtrWidth = 5
+
+Analyzing hierarchy for entity <DynamicPRMG> in library <work> (architecture <arcdynamicprmg>) with generics.
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+	SignalBits = 8
+
+Analyzing hierarchy for entity <PRMG_uCore> in library <work> (architecture <arcprmg_ucore>) with generics.
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <PRMG_SigGen> in library <work> (Architecture <arcprmg_siggen>).
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	ButtonTimeOutCtrWidth = 8
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+	SPITransmissionStateCounterWidth = 6
+	SignalBits = 8
+	SyncCounterWidth = 6
+	UserInterfaceAuxCtrWidth = 5
+WARNING:Xst:753 - "E:/0/PRMG_uCore/PRMG_SigGen.vhd" line 224: Unconnected output port 'Strobe25Out' of component 'DynamicPRMG'.
+Entity <PRMG_SigGen> analyzed. Unit <PRMG_SigGen> generated.
+
+Analyzing generic Entity <DynamicPRMG> in library <work> (Architecture <arcdynamicprmg>).
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+	SignalBits = 8
+Entity <DynamicPRMG> analyzed. Unit <DynamicPRMG> generated.
+
+Analyzing generic Entity <PRMG_uCore> in library <work> (Architecture <arcprmg_ucore>).
+	AuxDividerRatio = 125
+	AuxDividerWidth = 7
+	CycleCounterWidth = 8
+	DualModeDividerWidth = 5
+	FracDividerWidth = 10
+Entity <PRMG_uCore> analyzed. Unit <PRMG_uCore> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PRMG_uCore>.
+    Related source file is "E:/0/PRMG_uCore/PRMG_uCore.vhd".
+WARNING:Xst:1780 - Signal <FracDividerStep<31:10>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <FracDividerStep<9:0>> is used but never assigned. This sourceless signal will be automatically connected to value 0100010001.
+WARNING:Xst:646 - Signal <DualModeDividerZero> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CycleCounterZero> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <SigGen_State>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk (dual_edge)                                |
+    | Clock enable       | SigGen_State$not0000      (positive)           |
+    | Power Up State     | idle_5ms_1st                                   |
+    | Recovery State     | idle_5ms_1st                                   |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 7-bit up counter for signal <AuxDivider>.
+    Found 8-bit up counter for signal <CycleCounter>.
+    Found 5-bit up counter for signal <DualModeDivider>.
+    Found 10-bit register for signal <FracDivider>.
+    Found 3-bit adder for signal <FracDivider$add0000> created at line 168.
+    Found 10-bit adder for signal <FracDividerNew$add0001> created at line 161.
+    Found 1-bit register for signal <FracDividerOut>.
+    Found 1-bit register for signal <Gate_1300>.
+    Found 1-bit register for signal <Gate_2100>.
+    Found 1-bit register for signal <Strobe_12p5>.
+    Found 1-bit register for signal <Strobe_25>.
+    Found 1-bit register for signal <Strobe_54K6>.
+    Found 1-bit register for signal <Strobe_54K6_Adjusted>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred   7 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <PRMG_uCore> synthesized.
+
+
+Synthesizing Unit <DynamicPRMG>.
+    Related source file is "E:/0/PRMG_uCore/DynamicPRMG.vhd".
+    Found finite state machine <FSM_1> for signal <DynGeneration_State>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 8                                              |
+    | Clock              | Clk (dual_edge)                                |
+    | Clock enable       | DynGeneration_State$or0000 (positive)          |
+    | Reset              | DynamicMode               (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | dynidle_1st                                    |
+    | Power Up State     | dynidle_1st                                    |
+    | Recovery State     | dynidle_1st                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <DACBuffer>.
+    Found 8-bit register for signal <DynamicAmp1300Buffer>.
+    Found 8-bit register for signal <DynamicAmp2100Buffer>.
+    Found 1-bit register for signal <DynGeneration_HalfPeriod>.
+    Found 1-bit register for signal <Gate1300_Adjusted>.
+    Found 1-bit register for signal <Gate2100_Adjusted>.
+    Found 8-bit register for signal <IntervalCounter>.
+    Found 8-bit addsub for signal <IntervalCounter$share0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <DynamicPRMG> synthesized.
+
+
+Synthesizing Unit <PRMG_SigGen>.
+    Related source file is "E:/0/PRMG_uCore/PRMG_SigGen.vhd".
+    Found 16x3-bit ROM for signal <BinBus$rom0000>.
+    Found 1-bit register for signal <BTN0_Buf>.
+    Found 1-bit register for signal <BTN1_Buf>.
+    Found 8-bit register for signal <ButtonTimeOutCounter>.
+    Found 8-bit adder for signal <ButtonTimeOutCounter$addsub0000> created at line 301.
+    Found 8-bit comparator not equal for signal <Comparator$cmp_ne0000> created at line 454.
+    Found 8-bit register for signal <DACBuffer>.
+    Found 1-bit register for signal <SPI_CLK>.
+    Found 1-bit register for signal <SPI_DATA>.
+    Found 1-bit register for signal <SPI_nCS>.
+    Found 6-bit up counter for signal <SPITransmissionStateCounter>.
+    Found 8-bit updown counter for signal <StaticAmp1300Reg>.
+    Found 8-bit updown counter for signal <StaticAmp2100Reg>.
+    Found 1-bit register for signal <SW0_Buf>.
+    Found 1-bit register for signal <SW1_Buf>.
+    Found 6-bit down counter for signal <SyncCounter>.
+    Found 1-bit register for signal <SyncSignal>.
+    Found 1-bit register for signal <TXBit_m1T>.
+    Found 5-bit up counter for signal <UserInterfaceAuxiliaryCounter>.
+    Found 1-bit register for signal <UserInterfaceAuxiliaryCounterOverflow>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   5 Counter(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <PRMG_SigGen> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x3-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+ 8-bit addsub                                          : 1
+# Counters                                             : 8
+ 5-bit up counter                                      : 2
+ 6-bit down counter                                    : 1
+ 6-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 2
+# Registers                                            : 27
+ 1-bit register                                        : 20
+ 10-bit register                                       : 1
+ 8-bit register                                        : 6
+# Comparators                                          : 1
+ 8-bit comparator not equal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <Lab0_DynamicPRMG/DynGeneration_State/FSM> on signal <DynGeneration_State[1:3]> with compact encoding.
+-----------------------------------
+ State                 | Encoding
+-----------------------------------
+ dynidle_1st           | 000
+ dyn_1300hz_going_down | 100
+ dynidle_1300hz_low    | 101
+ dyn_1300hz_going_up   | 001
+ dynidle_2nd           | 010
+ dyn_2100hz_going_down | 110
+ dynidle_2100hz_low    | 111
+ dyn_2100hz_going_up   | 011
+-----------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Lab0_DynamicPRMG/Lab0_PRMG_uCore/SigGen_State/FSM> on signal <SigGen_State[1:2]> with compact encoding.
+-----------------------------
+ State           | Encoding
+-----------------------------
+ idle_5ms_1st    | 00
+ gen_1300hz_35ms | 10
+ idle_5ms_2nd    | 11
+ gen_2100hz_35ms | 01
+-----------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 16x3-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+ 8-bit addsub                                          : 1
+# Counters                                             : 8
+ 5-bit up counter                                      : 2
+ 6-bit down counter                                    : 1
+ 6-bit up counter                                      : 1
+ 7-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 2
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PRMG_SigGen> ...
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_7
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_0
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_1
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_2
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_3
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_4
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_5
+  implementation constraint: INIT=r	 : ButtonTimeOutCounter_6
+  implementation constraint: INIT=r	 : UserInterfaceAuxiliaryCounter_4
+  implementation constraint: INIT=r	 : UserInterfaceAuxiliaryCounter_3
+  implementation constraint: INIT=r	 : UserInterfaceAuxiliaryCounter_2
+  implementation constraint: INIT=r	 : UserInterfaceAuxiliaryCounter_1
+  implementation constraint: INIT=r	 : UserInterfaceAuxiliaryCounter_0
+
+Optimizing unit <PRMG_uCore> ...
+  implementation constraint: INIT=r	 : SigGen_State_FSM_FFd1
+  implementation constraint: INIT=r	 : SigGen_State_FSM_FFd2
+
+Optimizing unit <DynamicPRMG> ...
+  implementation constraint: INIT=r	 : DynGeneration_State_FSM_FFd1
+  implementation constraint: INIT=r	 : DynGeneration_State_FSM_FFd2
+  implementation constraint: INIT=r	 : DynGeneration_State_FSM_FFd3
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PRMG_SigGen.ngr
+Top Level Output File Name         : PRMG_SigGen
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : CoolRunner2 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 55
+
+Cell Usage :
+# BELS                             : 1344
+#      AND2                        : 468
+#      AND3                        : 33
+#      AND4                        : 7
+#      AND5                        : 1
+#      AND6                        : 2
+#      AND8                        : 7
+#      GND                         : 3
+#      INV                         : 454
+#      OR2                         : 217
+#      OR3                         : 37
+#      OR4                         : 2
+#      OR8                         : 2
+#      VCC                         : 1
+#      XOR2                        : 110
+# FlipFlops/Latches                : 136
+#      FDD                         : 54
+#      FDDCE                       : 82
+# IO Buffers                       : 55
+#      IBUF                        : 5
+#      OBUF                        : 50
+=========================================================================
+
+
+Total REAL time to Xst completion: 43.00 secs
+Total CPU time to Xst completion: 42.19 secs
+ 
+--> 
+
+Total memory usage is 151100 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
